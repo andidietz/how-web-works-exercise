@@ -1,0 +1,17 @@
+HTTP is a protocol for the sending and recieving of files.
+
+A URL consits of different pieces of info that locate a file, such as the Protocol used (HTTPS), the hostname name (google.com), the resource requested (page), and any queries that filter/sorts the resource information.
+
+DNS is the Domain Name system that houses hostnames and their offical IP addresses.
+
+A query string is sent in a GET request and tells the servers what information/resources to search for, gather up, and send back in the response body.
+
+GET and POST are two HTTP verbs. GET asks for resource, and POST makes changes on the information stored in a server.
+
+HTTP request is request for resources made on the cient side.
+
+HTTP response is a server's response to a request for information, which could be sending the requested information or another status code.
+
+HTTP headers tell the server more information about the type of information the client wants to recieve, such as Accept-Langange (which language the client wants to request) and Accept (which file format the client wants the information to be sent back in).
+
+A HTTP request is sent out from the client side. After the server IP address is located, the request is sent to the server. The server locates the resource within system and sends a response with the resource back to the client. The response is parced and displayed within the browser.
